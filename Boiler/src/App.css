@@ -1,0 +1,39 @@
+:root {
+  --darkColor: #023047;
+  --light: #8ecae6;
+}
+
+.App {
+  text-align: center;
+}
+.head {
+  padding: 30;
+  background-color: var(--darkColor);
+  color: white;
+}
+.btn {
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.inp {
+  margin: 10px;
+  border: 2px solid var(--light);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1em;
+  outline: none;
+}
+.inp:focus {
+  border: 2px solid var(--darkColor);
+}
+.signborder {
+  border: 3px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
