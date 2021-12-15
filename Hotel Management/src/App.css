@@ -1,0 +1,70 @@
+:root {
+  --darkColor: navy;
+  --light: #8ecae6;
+}
+
+.App {
+  text-align: center;
+}
+.head {
+  padding: 30;
+  background-color: var(--darkColor);
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.btn {
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.inp {
+  margin: 10px;
+  border: 2px solid var(--light);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1em;
+  outline: none;
+}
+.inp:focus {
+  border: 2px solid var(--darkColor);
+}
+.signborder {
+  border: 3px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.fnt {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.dsh {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
